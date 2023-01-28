@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Chris Dobson",
+    "label": "Software Developer",
+    "image": "https://pluralsight.imgix.net/author/lg/cd79f14e-da75-4fcb-b4fd-8960d0fa40b4.jpg",
+    "email": "chrisdobby.dev@gmail.com",
+    "url": "https://github.com/chrisdobby",
+    "location": {
+      "city": "Huddersfield",
+      "countryCode": "UK",
+      "region": "West Yorkshire"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "chrisdobby",
+        "url": "https://github.com/chrisdobby"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "chrisdobby",
+        "url": "https://www.linkedin.com/in/chrisdobby"
+      },
+      {
+        "network": "Twitter",
+        "username": "chrisdobby",
+        "url": "https://twitter.com/chrisdobby"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Development",
+      "keywords": [
+        "Node JS",
+        "TypeScript",
+        "JavaScript",
+        "AWS",
+        "Event Driven Architecture",
+        "React",
+        "Jest/Vitest",
+        "C#",
+        ".NET"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Terraform",
+        "New Relic",
+        "Github Actions"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Solutions Architect Professional",
+      "date": "2022-07-07",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/a6313967-3803-4561-a384-6bed7f96f37f/public_url"
+    },
+    {
+      "name": "AWS Developer Associate",
+      "date": "2022-03-24",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/c02613ec-ae37-4bcd-888b-1815159bc2a4/public_url"
+    },
+    {
+      "name": "AWS Solutions Architect Associate",
+      "date": "2022-03-03",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/cbe0dba2-ba5b-4373-a768-25bdfbdd48ea/public_url"
+    }
+  ],
+  "work": [
+    {
+      "name": "DAZN",
+      "position": "Senior Software Engineer",
+      "url": "https://dazn.com",
+      "startDate": "2022-01-04",
+      "summary": "DAZN is one of the largest sports streaming platforms in the world. I work in DOTS (DAZN Operation Tooling Systems) building services responsible for ensuring the smooth running of live sports streams.",
+      "highlights": [
+        "Designed infastructure to speed up the development of new services using AWS, Terraform & Github Actions",
+        "Event driven service using AWS EventBridge, Lambda, DynamoDB, SQS, API Gateway to coordinate the delivery of live sports streams",
+        "API and React frontend to allow streams to be delivered via YouTube"
+      ]
+    },
+    {
+      "name": "EMIS Health/Ascribe",
+      "position": "Expert Software Developer/Senior Software Developer",
+      "url": "https://www.emishealth.com/",
+      "startDate": "2008-05-01",
+      "endDate": "2021-12-31",
+      "summary": "EMIS Health is a leading provider of clinical software and services to the NHS. Over the time I was there I worked on a number of different projects.",
+      "highlights": [
+        "Medical checks – this is a Nextjs, native Android and native IOS front-end with AWS API Gateway, Lambda, IOT, Cognito and DynamoDB backend originally designed to prove patient Covid vaccination and test status but can also be used to prove any medical status. The application was proved to be able to handle at least 120 million checks per day at a cost of approximately 0.002p per check and was built inside two months by two developers.",
+        "Clinical intelligence templates – this is a React application that allows medical professionals to create intelligent workflows for use by both other professionals in a medical setting and by patients themselves online to help with treatments and next steps.",
+        "GP consultation assistant – this is a React js front-end and AWS backend that streams microphone input of a consultation to AWS Transcribe, calling AWS Lambda functions built in Node to find appropriate medical coded data and current medical history to advise the GP of possible questions to ask and diagnoses in real-time, It also translates using AWS Translate and websockets to allow patients with a different first language to the GP to have a better experience by using their own device to translate to and from their chosen language.",
+        "Medical querying - this is a React js front end and AWS back-end allowing medical professionals to use natural language to answer complex questions about a patient’s medical history. Calls an AWS Lambda function built in Node that takes the text and returns either a dataset or a 'yes'/'no' answer. Examples of questions could be: 'The latest haemoglobin level', 'graph of blood pressure over the last two years', 'has the blood pressure decreased since the last prescription of Ramipril'",
+        "EMIS web interface - created web front ends using React js for two of the key functions of the EMIS Windows application. Used the existing REST apis to retrieve and update the data. Also created wrapper components in .NET to allow the web applications to be accessed from within the Windows app.",
+        "Acute prescribing – web based prescribing solution for hospitals",
+        "Oncology treatment planning – web based application to aid with planning and scheduling of cancer treatments",
+        "Electronic drug chart – web based drug chart for use in hospitals replacing clipboard at the end of a bed"
+      ]
+    },
+    {
+      "name": "MX Onboard",
+      "position": "Software Developer",
+      "startDate": "2007-04-01",
+      "endDate": "2008-04-30"
+    },
+    {
+      "name": "Vehicle Weighing Solutions",
+      "position": "Software Developer",
+      "startDate": "2005-11-01",
+      "endDate": "2007-03-31"
+    },
+    {
+      "name": "PM Onboard",
+      "position": "Software Developer",
+      "startDate": "2003-01-01",
+      "endDate": "2005-08-01"
+    },
+    {
+      "name": "CAP Motor Research",
+      "position": "Analyst Programmer",
+      "startDate": "1998-07-01",
+      "endDate": "2002-09-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Profiling Performance with React Developer Tools",
+      "publisher": "Pluralsight",
+      "releaseDate": "2020-05-06",
+      "url": "https://www.pluralsight.com/guides/profiling-performance-with-react-developer-tools"
+    },
+    {
+      "name": "Debugging Components with React Developer Tools",
+      "publisher": "Pluralsight",
+      "releaseDate": "2020-05-06",
+      "url": "https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools"
+    },
+    {
+      "name": "Building a Simple React Weather App",
+      "publisher": "Pluralsight",
+      "releaseDate": "2020-08-06",
+      "url": "https://app.pluralsight.com/guides/building-a-simple-react-weather-app"
+    },
+    {
+      "name": "Drag and Drop in React Components",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-10-28",
+      "url": "https://www.pluralsight.com/guides/drag-and-drop-react-components"
+    },
+    {
+      "name": "Code Splitting in a React Application",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-12-20",
+      "url": "https://www.pluralsight.com/guides/code-splitting-in-a-react-application"
+    },
+    {
+      "name": "Testing Asynchronous Functionality in a React Component",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-10-05",
+      "url": "https://www.pluralsight.com/guides/testing-asynchronous-functionality-react-component"
+    },
+    {
+      "name": "Using React Refs in Typescript",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-08-17",
+      "url": "https://www.pluralsight.com/guides/using-react-refs-typescript"
+    },
+    {
+      "name": "Render on Window Resize in React",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-08-02",
+      "url": "https://www.pluralsight.com/guides/render-window-resize-react"
+    },
+    {
+      "name": "Component Composition in React",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-06-18",
+      "url": "https://www.pluralsight.com/guides/react-component-composition/"
+    },
+    {
+      "name": "Reacting to Prop Changes in a React Component",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-03-28",
+      "url": "https://www.pluralsight.com/guides/prop-changes-in-react-component"
+    },
+    {
+      "name": "Higher Order Composition with Typescript for React",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-04-12",
+      "url": "https://www.pluralsight.com/guides/higher-order-composition-typescript-react"
+    },
+    {
+      "name": "React Todo List",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-07-29",
+      "url": "https://www.pluralsight.com/guides/react-todo-list-part-1/"
+    },
+    {
+      "name": "Using the React Context API",
+      "publisher": "Pluralsight",
+      "releaseDate": "2019-05-07",
+      "url": "https://www.pluralsight.com/guides/react-context-api"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Code Club",
+      "position": "Volunteer",
+      "url": "https://codeclub.org/en/",
+      "startDate": "2013-06-01",
+      "endDate": "2018-06-30"
+    }
+  ]
+}
