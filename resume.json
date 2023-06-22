@@ -63,6 +63,12 @@
       "url": "https://www.credly.com/badges/a6313967-3803-4561-a384-6bed7f96f37f/public_url"
     },
     {
+      "name": "AWS Devops Engineer Professional",
+      "date": "2023-06-21",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/2619c23d-a69e-4d76-93db-3c57dd74d4e2/pubilc_url"
+    },
+    {
       "name": "AWS Developer Associate",
       "date": "2022-03-24",
       "issuer": "AWS",
@@ -77,11 +83,18 @@
   ],
   "work": [
     {
+      "name": "Trustpilot",
+      "position": "Senior Software Engineer",
+      "url": "https://trustpilot.com",
+      "startDate": "2023-04-27"
+    },
+    {
       "name": "DAZN",
       "position": "Senior Software Engineer",
       "url": "https://dazn.com",
       "startDate": "2022-01-04",
-      "summary": "DAZN is one of the largest sports streaming platforms in the world. I work in DOTS (DAZN Operation Tooling Systems) building services responsible for ensuring the smooth running of live sports streams.",
+      "endDate": "2023-04-17",
+      "summary": "DAZN is one of the largest sports streaming platforms in the world. I worked in DOTS (DAZN Operation Tooling Systems) building services responsible for ensuring the smooth running of live sports streams.",
       "highlights": [
         "Designed infastructure to speed up the development of new services using AWS, Terraform & Github Actions",
         "Event driven service using AWS EventBridge, Lambda, DynamoDB, SQS, API Gateway to coordinate the delivery of live sports streams",
