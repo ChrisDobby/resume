@@ -35,11 +35,11 @@
     {
       "name": "Development",
       "keywords": [
+        "AWS",
+        "Event Driven Architecture",
         "Node JS",
         "TypeScript",
         "JavaScript",
-        "AWS",
-        "Event Driven Architecture",
         "React",
         "Jest/Vitest",
         "C#",
@@ -49,9 +49,11 @@
     {
       "name": "DevOps",
       "keywords": [
+        "CoudFormation",
+        "CDK",
+        "Github Actions",
         "Terraform",
-        "New Relic",
-        "Github Actions"
+        "New Relic"
       ]
     }
   ],
